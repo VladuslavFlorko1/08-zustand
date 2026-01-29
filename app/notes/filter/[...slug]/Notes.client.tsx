@@ -60,7 +60,7 @@ const NotesClient = ({ tag }: Props) => {
             totalPages={totalPages}
           />
         )}
-        <Link href="/notes/create" className={css.button}>
+        <Link href="/notes/action/create" className={css.button}>
           Create note +
         </Link>
       </header>
